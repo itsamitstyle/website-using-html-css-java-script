@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>national geographic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Noto+Sans+Limbu&family=Open+Sans:wght@300&family=Rubik+Bubbles&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .nav {
+        background-color: white;
+        width: 30cm;
+        height: 1.7cm;
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/National-Geographic-Logo.svg/1200px-National-Geographic-Logo.svg.png");
+        background-position: 1% 30%;
+        background-size: 3.9cm;
+        background-repeat: no-repeat;
+      }
+      .back {
+        background-color: black;
+        width: 30cm;
+        height: 50cm;
+
+        display: inline-block;
+      }
+      big {
+        color: white;
+        position: absolute;
+        top: 2cm;
+        font-size: 1cm;
+        left: 3cm;
+        font-weight: 900;
+      }
+      small {
+        color: white;
+        position: absolute;
+        top: 3.4cm;
+        left: 2.6cm;
+      }
+      .class {
+        position: absolute;
+        top: 0.6cm;
+        left: 5cm;
+        font-size: 6mm;
+        color: black;
+      }
+      #sub {
+        position: absolute;
+        top: 0.4cm;
+        left: 11.8cm;
+        background-color: black;
+        color: white;
+      }
+      a {
+        color: white;
+      }
+      h3 {
+        color: white;
+        position: absolute;
+        top: 6cm;
+        left: 1cm;
+        font-weight: 800;
+        font-size: 7mm;
+      }
+      #border {
+        background-color: yellow;
+        width: 1.8mm;
+        height: 6mm;
+        position: absolute;
+        top: 6.1cm;
+        left: 7mm;
+      }
+      #photo {
+        position: absolute;
+        top: 8cm;
+        /* left: 1cm;. */
+      }
+      #black {
+        background-color: white;
+        width: 200px;
+        height: 300px;
+        position: absolute;
+        top: 20cm;
+        left: 2cm;
+        display: inline-block;
+        background-image: url("https://media.istockphoto.com/id/1256653107/photo/black-panther-panthera-pardus-adult-snarling-in-defensive-posture.jpg?s=612x612&w=0&k=20&c=gfaHZvAL1XDHoT1sgBPEQZ0Z6vZwQ6E9KMaUIrEJhdQ=");
+        background-repeat: no-repeat;
+        background-size: 5.3cm;
+        border-radius: 2mm;
+        border-top: 2mm solid white;
+        border-left: 2mm solid white;
+        border-bottom: 2mm solid white;
+        border-right: 2mm solid white;
+      }
+      h4 {
+        position: absolute;
+        top: 3.8cm;
+        left: 0.6cm;
+        font-size: 9mm;
+        font-family: "Noto Sans JP", sans-serif;
+        font-family: "Noto Sans Limbu", sans-serif;
+        font-family: "Open Sans", sans-serif;
+        font-family: "Rubik Bubbles", cursive;
+      }
+      p {
+        position: absolute;
+        top: 5cm;
+      }
+
+      #green {
+        background-color: white;
+        width: 200px;
+        height: 300px;
+        position: absolute;
+        top: 20cm;
+        left: 9cm;
+        display: inline-block;
+        background-image: url("https://images.unsplash.com/photo-1584395631446-e41b0fc3f68d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGltYWxheWFzfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+        background-repeat: no-repeat;
+        background-size: 5.3cm;
+        border-radius: 2mm;
+        border-top: 2mm solid white;
+        border-left: 2mm solid white;
+        border-bottom: 2mm solid white;
+        border-right: 2mm solid white;
+      }
+      #pic {
+        position: absolute;
+        top: 29cm;
+        text-align: center;
+        /* a for denoted alpha  */
+        width: 2cm;
+        height: 1cm;
+        /* top: 3cm; */
+        background-color: white;
+        background-image: url("https://wp.cghnyc.com/media/NatGeo-w-Quad.jpg");
+        background-repeat: no-repeat;
+        background-size: 2cm;
+        border-top: 2mm solid rgba(9, 249, 9, 0.938);
+        border-bottom: 2mm solid rgba(11, 11, 250, 0.941);
+        border-left: 2mm solid rgba(253, 168, 11, 0.92);
+        border-right: 2mm solid rgba(246, 7, 7, 0.95);
+        border-radius: 2mm;
+      }
+      #img1 {
+        position: absolute;
+        background-image: url("https://images.pexels.com/photos/41162/moon-landing-apollo-11-nasa-buzz-aldrin-41162.jpeg?cs=srgb&dl=pexels-pixabay-41162.jpg&fm=jpg");
+        /* background-position: ; */
+        width: 3cm;
+        height: 3cm;
+        background-repeat: no-repeat;
+        background-size: 3cm;
+        top: 36cm;
+        left: 2cm;
+        font-size: 1cm;
+      }
+      h6 {
+        color: white;
+        position: absolute;
+        left: 4cm;
+        text-align: center;
+      }
+      h5 {
+        position: absolute;
+        color: white;
+        left: 4cm;
+        top: 2cm;
+      }
+      #img2 {
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="nav">
+        <form action="/function.py">
+          <div class="class">
+            <div>
+              <form action="/function.py">
+                search<input type="search" name="search " />
+              </form>
+            </div>
+          </div>
+          <div id="sub">
+            <a href="https://www.nationalgeographic.com/"
+              ><h1>subscribe</h1>
+            </a>
+          </div>
+        </form>
+      </div>
+      <div class="back">
+        <big>LATEST STORIES</big>
+        <small
+          >Subscribe for full access to read stories from National
+          Geographic.</small
+        >
+
+        <h3>TODAY'S PICKS</h3>
+
+        <div id="border"></div>
+        <div id="photo">
+          <img
+            src="https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c3BhY2V4fGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+            alt="error"
+            width="600px"
+          />
+        </div>
+
+        <div id="black">
+          <h4>animal</h4>
+          <p>
+            black-panther-panthera-pardus-adult-snarling-in-defensive-posture
+          </p>
+        </div>
+        <div id="green">
+          <h4>Himalayas</h4>
+          <p>Lorem ipsum dolor sit.</p>
+        </div>
+
+        <div id="pic">
+          <big>TODAY'S PICKS</big>
+        </div>
+        <div id="img1">
+          <h6>Astronaut</h6>
+          <h5>2022 in review</h5>
+        </div>
+        <div id="img2"></div>
+      </div>
+    </main>
+    <script>
+        alert("this is alert ")
+        age = prompt("enter your age ")
+        if(age>18){
+            PushSubscription
+        }
+        // console.log("helloamit ")
+        status("hello")
+
+    </script>
+  </body>
+</html>
